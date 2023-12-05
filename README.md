@@ -8,3 +8,6 @@ We only used the dataset released for this shared task.
 XLM-Roberta-Base model works well for tasks belonging to this family, like Named Entity Recognition, Part of Speech tagging, etc. 
 We used similar approaches to NER and POS. xlm-roberta model has wide representations of all Indian languages and is pretrained on high quality
 data, which enabled us to choose it for this task. 
+
+We have submitted a .tsv file which contains " word \t tag ".
+When there is a change in sentence, the corresponding line is empty.
